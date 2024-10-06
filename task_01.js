@@ -14,8 +14,6 @@ const isWarsawCitizen = userCity === 'Warszawa' ? true : false;
 
 const likesJSAndIsAdult = likesJavaScript && isAdult;
 
-console.log(likesJSAndIsAdult);
-
 let message = `Witaj, ${userName}, co masz ${userAge} lat!`;
 message += `\nJesteś ${isAdult ? '' : 'nie'}pełnoletni`;
 message += `\nWidzę, że ${likesJavaScript ? '' : 'nie '}lubisz JS`;
