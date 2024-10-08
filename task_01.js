@@ -8,9 +8,9 @@ const userName = userNameLowerCase[0].toUpperCase() + userNameLowerCase.slice(1,
 
 const ageInTenYears = userAge + 10;
 
-const isAdult = userAge >= 18 ? true : false;
+const isAdult = userAge >= 18;
 
-const isWarsawCitizen = userCity === 'Warszawa' ? true : false;
+const isWarsawCitizen = userCity === 'Warszawa';
 
 const likesJSAndIsAdult = likesJavaScript && isAdult;
 
