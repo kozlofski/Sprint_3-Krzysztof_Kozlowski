@@ -3,7 +3,6 @@ const number2 = 3;
 const operationType = '%';
 
 let result = 0;
-let message = ''
 let errorMessage = ''
 
 if(operationType === '+') {
@@ -30,7 +29,7 @@ if(operationType === '+') {
 
 if(errorMessage.length === 0) {
     const evenOrOdd = (result % 2 === 0) ? 'parzysty' : 'nieparzysty';
-    message = `Wynik operacji \"${operationType}\" to: ${result}, który jest ${evenOrOdd}`;
+    const message = `Wynik operacji \"${operationType}\" to: ${result}, który jest ${evenOrOdd}`;
     console.log(message);
 } else {
     console.log(errorMessage)
