@@ -27,7 +27,7 @@ if(operationType === '+') {
     errorMessage = 'Nieobsługiwany typ operacji';
 }
 
-if(errorMessage.length === 0) {
+if(!errorMessage.length) {
     const evenOrOdd = (result % 2 === 0) ? 'parzysty' : 'nieparzysty';
     const message = `Wynik operacji \"${operationType}\" to: ${result}, który jest ${evenOrOdd}`;
     console.log(message);
